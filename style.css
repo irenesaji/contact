@@ -7,34 +7,34 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  /* Heading Styling */
-  h1 {
+}
+
+/* Heading Styling */
+h1 {
     text-align: center;
     color: #333;
-  }
-  
-  /* Form Styling */
-  form {
-    background-color: #ffffff;
+}
+
+/* Form Styling */
+form {
+    background-color: #8B4513; /* Changed to brown */
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 600px;
-  }
-  
-  /* Form Label Styling */
-  label {
+}
+
+/* Form Label Styling */
+label {
     font-size: 14px;
-    color: #555;
+    color: #fff; /* White text for contrast */
     display: block;
     margin: 10px 0 5px;
-  }
-  
-  /* Input and Textarea Styling */
-  input, textarea {
+}
+
+/* Input and Textarea Styling */
+input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -42,20 +42,20 @@ body {
     border-radius: 5px;
     font-size: 14px;
     color: #333;
-  }
-  
-  input[type="email"],
-  input[type="tel"] {
+}
+
+input[type="email"],
+input[type="tel"] {
     height: 40px;
-  }
-  
-  textarea {
+}
+
+textarea {
     resize: vertical;
     height: 150px;
-  }
-  
-  /* Button Styling */
-  button {
+}
+
+/* Button Styling */
+button {
     background-color: #4CAF50;
     color: white;
     padding: 12px 24px;
@@ -64,14 +64,13 @@ body {
     cursor: pointer;
     font-size: 16px;
     width: 100%;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #45a049;
-  }
-  
-  /* Form group styling (spacing between elements) */
-  .form-group {
+}
+
+/* Form group styling (spacing between elements) */
+.form-group {
     margin-bottom: 20px;
-  }
-  
+}
